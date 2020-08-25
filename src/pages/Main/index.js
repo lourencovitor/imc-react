@@ -15,35 +15,35 @@ const Main = () => {
     if (imc < 16) {
       setBgColor("#ec2300");
       setAlert("danger");
-      setMessage("Magreza grave");
+      setMessage("Severe slimness");
     } else if (imc < 17) {
       setBgColor("#ff4040");
       setAlert("danger");
-      setMessage("Magreza moderada");
+      setMessage("Moderate slimness");
     } else if (imc < 18.5) {
       setBgColor("#ff4500");
       setAlert("warning");
-      setMessage("Magreza leve");
+      setMessage("Slimness light");
     } else if (imc < 25) {
       setBgColor("#008000");
       setAlert("success");
-      setMessage("Saudável");
+      setMessage("Healthy");
     } else if (imc < 30) {
       setBgColor("#ff4500");
       setAlert("warning");
-      setMessage("Sobrepeso");
+      setMessage("Overweight");
     } else if (imc < 35) {
       setBgColor("#ff4500");
       setAlert("warning");
-      setMessage("Obesidade grau I");
+      setMessage("Obesity grade I");
     } else if (imc < 40) {
       setBgColor("#ff4040");
       setAlert("danger");
-      setMessage("Obesidade grau II (Severa)");
+      setMessage("Obesity grade II (Severe)");
     } else {
       setBgColor("#ec2300");
       setAlert("danger");
-      setMessage("Obesidade grau III (Mórbida)");
+      setMessage("Obesity grade III (Morbid)");
     }
   }
 
