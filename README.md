@@ -5,7 +5,7 @@
   <h3 align="center">IMC - React</h3>
 </p>
 
-## Sobre o Projeto
+## About the Project
 
 BMI application to calculate in front of your weight and your height, making the interphase interact with the calculation result
 
